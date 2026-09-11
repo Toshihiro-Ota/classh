@@ -1,6 +1,6 @@
 # Phases in class H
 
-This repo provides a Python implementation of the *"Phases in class H" solver* presented in the paper "Phases in a class of associative memories via hidden neurons", [arXiv:2609.xxxxx]().
+This repo provides a Python implementation of the phase-diagram solver presented in the paper "Phases in a class of associative memories via hidden neurons", [arXiv:2609.10976](https://arxiv.org/abs/2609.10976).
 
 ## Abstract
 
@@ -16,7 +16,7 @@ The regimes differ in their crosstalk statistics, central-limit at polynomial lo
 
 ### Requirements
 
-We use the basic Python libraries. Dependencies can be installed with the following:
+We use the basic Python libraries. The required packages can be installed with:
 
 ```bash
 pip install -r requirements.txt
@@ -24,23 +24,23 @@ pip install -r requirements.txt
 
 ### Example
 
-To solve the phase diagram for a model, e.g. Model A, run the following:
+To compute the phase diagram for a model, e.g. Model A, run the following:
 
 ```bash
 python phase_a.py
 ```
 
-The phase diagrams displayed in the paper are obtained by running the above command in the default setting.
+The phase diagrams shown in the paper are obtained by running the command above with the default settings.
 
 ## Citation
 
-If you use our code, or otherwise find our work useful, please cite the accompanying paper:
+If you use this code or find our work useful, please cite the accompanying paper:
 
 ```bibtex
 @article{ota2026phases,
     title     = {Phases in a class of associative memories via hidden neurons},
     author    = {Ota, Toshihiro and Taki, Masato},
-    journal   = {arXiv preprint arXiv:2609.xxxxx},
+    journal   = {arXiv preprint arXiv:2609.10976},
     year      = {2026}
 }
 ```
